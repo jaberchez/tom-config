@@ -3,5 +3,5 @@ kind: Kustomization
 metadata:
   namespace: tom
 resources:
-- secret.yaml
-- deployment.yaml
+  - secret.yaml
+  - deployment.yaml
